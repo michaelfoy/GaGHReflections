@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+This configures the directory to be examined by git and begin tracking files 
+for changes and version control. You must init so git knows to start.
+
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+Staging area holds files to be committed, but can be reverted if necessary. 
+It's a cache before making a commit. A staging area, really.
+
+

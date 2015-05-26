@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug 
+that was introduced?
+
+Sections of the file that contain differences are highlighted and the 
+differences are pointed out to the user.
+
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+Seeing changes over time, going back to revert to older changes could be 
+easier, one location for this information. All of this accessible is the key.
+
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pro: no extraneous commits, ensure you have changes tracked that are meaningful
+to me the users
+Cons: the user can forget to make a commit, without a defined process in place 
+the commits can seem arbitrary
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+We went over this: sometimes a change in one file requires a change in another
+file for similar reasons. I can make a commit so that this logical change is 
+reflected in both.
+
+
+How can you use the commands git log and git diff to view the history of 
+files?
+
+Use log to find a commit to compare. Use the commit message as a guideline.
+Then use git diff to expose those changes in the command line editor.
+
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+Make a change, but I can always revert back to a previous version of the 
+source (as long as it was committed, of course).
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+When I look at other people's code and begin experimenting on my own, I want to
+ensure that any changes I make can be reverted. Don't break the system! Have a 
+way to get code, work on it, make changes, but still not worry about it 
+breaking irreparably.

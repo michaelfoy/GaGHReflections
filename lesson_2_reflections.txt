@@ -6,7 +6,45 @@ for changes and version control. You must init so git knows to start.
 
 How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
+
 Staging area holds files to be committed, but can be reverted if necessary. 
 It's a cache before making a commit. A staging area, really.
 
 
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+Use "git diff" to compare working directory to staging area. Incrementally add 
+files to the staging area that indicate a logical change, then commit it. Use 
+the "git diff --staged" command liberally as well.
+
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+The "experimental" change is the best example I could see for now. Or maybe 
+something like making changes to one set of code, then another branch could be 
+created to make changes to another set of code.
+
+
+How do the diagrams help you visualize the branch structure?
+
+I can see at which commit a branch was made, what commits have come after the 
+branch (for both branches).
+
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+A merge takes two versions of the file and combines them into the same branch. 
+This merged nodes contains the historical view of the changes made in BOTH 
+branches, however, in order to retain context.
+
+
+What are the pros and cons of Git's automatic merging vs always doing merges 
+manually?
+
+Automatic merging, when there are no conflicts, is very nice to combine edits 
+to a file into one "master" edit. I don't have to find the changes made in a 
+recent edit and manually add it in. The con is really that conflicts cannot 
+be automatically resolved.

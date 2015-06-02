@@ -1,0 +1,5 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+Create a remote repository if you are not at your regular machine, for example. Or another 
+collaborative user has created a file in the project from another machine and it has been 
+pushed to GitHub.

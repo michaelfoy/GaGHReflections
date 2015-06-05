@@ -1,5 +1,17 @@
 When would you want to create a remote repository rather than keeping all your work local?
 
-Create a remote repository if you are not at your regular machine, for example. Or another 
-collaborative user has created a file in the project from another machine and it has been 
-pushed to GitHub.
+Create a remote repository if you are not at your regular machine, for example. 
+Or another collaborative user has created a file in the project from another machine and it has been pushed to GitHub.
+
+
+Wny might you want to always pulls changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Similar to making local commits, you want to choose the best time to push and 
+pull changes to maintain control over what is on the local machine.
+
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+Fork is only on GitHub. Clone is a copy where local is involved. Branch is 
+iterative and will track changes made.

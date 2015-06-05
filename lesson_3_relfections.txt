@@ -15,3 +15,10 @@ use one instead of another?
 
 Fork is only on GitHub. Clone is a copy where local is involved. Branch is 
 iterative and will track changes made.
+
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+It gives you the latest version of what is on the remote repo so you know what 
+changes you will be making and how they will affect the existing code base.

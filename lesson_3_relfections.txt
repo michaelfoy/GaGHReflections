@@ -31,3 +31,10 @@ Without Git or GitHub, all changes would have to manually enumerated in a
 written document, then communicated to others, probably with email. Maybe 
 some kind of Excel file. This would be a giant pain in the ass. Really, 
 nothing would be any easier when doing this the old-fashioned way.
+
+
+WHen would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+This goes back to why you want branches at all: make any changes in a 
+"sanitized" environment so it doesn't affect anything else.

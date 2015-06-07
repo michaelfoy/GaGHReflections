@@ -22,3 +22,12 @@ stored locally?
 
 It gives you the latest version of what is on the remote repo so you know what 
 changes you will be making and how they will affect the existing code base.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+Without Git or GitHub, all changes would have to manually enumerated in a 
+written document, then communicated to others, probably with email. Maybe 
+some kind of Excel file. This would be a giant pain in the ass. Really, 
+nothing would be any easier when doing this the old-fashioned way.
